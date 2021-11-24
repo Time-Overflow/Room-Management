@@ -2,7 +2,7 @@
 using namespace std;
 
 void adminPage(){
-  cout<<""
+  cout<<"";
 }
 
 void introPage(){
@@ -25,15 +25,15 @@ void mainPage()
   cin<<i;
   if(i==1)
   {
-    return adminPage();
+    return;
   }
   else if(i==2)
   {
-    return userPage();
+    return;
   }
   else
   {
     cout<<"Please Enter Again";
-    return mainPage();
+    return;
   }
 }
