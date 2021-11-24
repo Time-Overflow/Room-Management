@@ -1,15 +1,10 @@
 #include <iostream>
+#include "design.h"
 using namespace std;
-
-void (){
-  string 
-}
-
-
-void mainPage()
+int main() 
 {
-  
-}
-int main() {
   cout << "Hello, Welcome to the";
+  mainPage();
+  system("pause");
+  return 0;
 }
